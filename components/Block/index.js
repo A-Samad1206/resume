@@ -18,7 +18,7 @@ const index = () => {
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
           IT Constructs:-{"  "}
         </Typography>
-        DS & Algorithms, OOPS, OS, DBMS, Computer Network
+        DS & Algo, OOPS, OS, DBMS, Computer Network
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
@@ -46,15 +46,15 @@ const index = () => {
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          DevOps:-{"  "}
+          Familiar With:-{"  "}
         </Typography>
-        Docker,Jenkins, Ansible
+        DevOps(Docker,Jenkins, Ansible)
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Familiar With:-{"  "}
+          Cloud Platform:-{"  "}
         </Typography>
-        PHP , C# ,Python ,Laravel
+        Heroku , Vercel , Digital Ocean
       </Typography>
     </Box>
   );
