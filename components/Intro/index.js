@@ -7,9 +7,9 @@ const index = () => {
       <Typography variant="h3" component="h2" sx={{ color: "grey.200" }}>
         Abdus Samad
       </Typography>
-      {/* <Typography variant="h6" component="h2" sx={{ color: "primary.light" }}>
-        ML enthusiast
-      </Typography> */}
+       <Typography variant="h6" component="h2" sx={{ color: "primary.light" }}>
+        Full-Stack Web Developer
+      </Typography> 
     </Box>
   );
 };

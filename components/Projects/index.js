@@ -17,7 +17,7 @@ const index = () => {
         </Typography>
         <Box variant="body1" sx={{ fontWeight: 700 }}>
           <Link
-            href="https://procart-git-main-imsamad.vercel.app/"
+            href="https://procart.vercel.app/"
             sx={{ mx: 2 }}
           >
             Live

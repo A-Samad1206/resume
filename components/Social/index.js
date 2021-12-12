@@ -26,7 +26,7 @@ const index = () => {
         href="https://github.com/imsamad"
       />
       <Temp
-        label="twitter.com/imsamad06"
+        label="twitter.com/imsamad00"
         Icon={TwitterIcon}
         href="https://github.com/imsamad"
       />
