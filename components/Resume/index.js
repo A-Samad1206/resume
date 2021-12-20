@@ -7,6 +7,8 @@ import Block from "../Block";
 import Education from "../Education";
 import Projects from "../Projects";
 const Index = React.forwardRef((props, ref) => {
+  const paperDim = { width: "8.5in", minHeight: "11in", m: "auto" };
+  const paperDim2 = { width: "21cm", minHeight: "29.7cm", m: "auto" };
   return (
     <Box
       sx={{
@@ -18,8 +20,9 @@ const Index = React.forwardRef((props, ref) => {
     >
       <Paper elevation={24}>
         {/* 794 /1123*/}
-        <Box sx={{ width: "21cm", height: "29.7cm", m: "auto" }}>
-          <Box ref={ref} sx={{ width: "21cm", height: "29.7cm" }}>
+
+        <Box sx={paperDim}>
+          <Box ref={ref} sx={paperDim}>
             <Intro />
             <Social />
             <Block />
