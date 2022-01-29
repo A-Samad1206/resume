@@ -1,7 +1,7 @@
-import { Chip, Divider, Typography } from "@mui/material";
-import { Box } from "@mui/system";
+import { Chip, Divider, Typography } from '@mui/material';
+import { Box } from '@mui/system';
 
-import Headline from "../Headline";
+import Headline from '../Headline';
 
 const index = () => {
   return (
@@ -10,49 +10,56 @@ const index = () => {
 
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Languages:-{"  "}
+          Data Science:-{'  '}
         </Typography>
-        C/C++, JavaScript
+        Python ,NumPy ,Pandas ,StreamLit
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          IT Constructs:-{"  "}
+          Languages:-{'  '}
         </Typography>
-        DS & Algo, OOPS, OS, DBMS, Computer Network
+        C/C++, JavaScript, Python
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Frontend:-{"  "}
+          IT Constructs:-{'  '}
+        </Typography>
+        DS & Algo, OOPS, DBMS
+        {/* Computer Network ,OS */}
+      </Typography>
+      <Typography variant="h6">
+        <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
+          Frontend:-{'  '}
         </Typography>
         React.js , Next.js , HTML , CSS , JS
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Backend:-{"  "}
+          Backend:-{'  '}
         </Typography>
         Node.js , Express , Firebase
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          DB Language:-{"  "}
+          DB Language:-{'  '}
         </Typography>
         Mongo & SQL
       </Typography>
-      <Typography variant="h6">
+      {/* <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
           DevTools:-{"  "}
         </Typography>
         VS Code & NPM
-      </Typography>
+      </Typography> */}
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Familiar With:-{"  "}
+          Familiar With:-{'  '}
         </Typography>
         DevOps(Docker,Jenkins, Ansible)
       </Typography>
       <Typography variant="h6">
         <Typography variant="h6" sx={{ fontWeight: 600 }} component="span">
-          Cloud Platform:-{"  "}
+          Cloud Platform:-{'  '}
         </Typography>
         Heroku , Vercel , Digital Ocean
       </Typography>

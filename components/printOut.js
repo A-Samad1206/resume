@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
-import ReactToPrint from "react-to-print";
-import Resume from "./Resume";
+import React, { useRef } from 'react';
+import ReactToPrint from 'react-to-print';
+import Resume from './Resume';
 const Example = () => {
   const componentRef = useRef();
 
@@ -16,6 +16,7 @@ const Example = () => {
 };
 
 export default Example;
+// eslint-disable-next-line react/display-name
 const ComponentToPrint = React.forwardRef((props, ref) => {
   return <Resume />;
 });
